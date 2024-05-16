@@ -55,8 +55,8 @@ body {
   }
 
 body.actores{
-  background-color: lightblue;
-  color: navy;
+  background-image: linear-gradient(to right, rgba(255, 0, 30, 0), rgb(255, 9, 9));
+  color: rgb(128, 0, 6);
   font-family: Arial, sans-serif;
   }
 
@@ -64,12 +64,13 @@ body.actores{
 .act {
   font-size:50px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: rgb(31, 0, 117);
+  color: rgb(117, 0, 2);
   text-align:center;
   }
 .pActores {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(0, 0, 0);
+  text-align: center;
   }
 
 body.temp{
@@ -77,6 +78,34 @@ body.temp{
   color: rgb(0, 0, 0);
   font-family: Arial, sans-serif;
   }
+
+  .temporadasAc {
+    background-color: red; /* Cambiar el color de fondo de la barra a rojo */
+    color: #ffffff; /* Color del texto */
+  }
+  
+  .temporadasAc ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(93, 0, 0); /* Cambiar el color de fondo de la lista a rojo */
+  }
+  
+  .temporadasAc ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .temporadasAc ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .temporadasAc ul li a:hover {
+    background-color: darkred; /* Cambiar el color de fondo al pasar el cursor sobre los enlaces */
+  }
+
 
 #tonyAc {
   display: flex;
@@ -130,12 +159,79 @@ body.temp{
   margin-top: 0;
 }
 
-.contenedor-imagenes {
-  display:flex;
+#chrisAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
 }
-.contenedor-imagenes img {
-  width: 200px; /* Ancho deseado para cada imagen */
-  height: auto; /* Altura ajustada automáticamente */
-  margin-right: 10px; /* Espacio entre las imágenes */
+
+.chrisText b {
+  margin-bottom: 0;
+}
+
+.chrisText p {
+  margin-top: 0;
+}
+
+#maxxieAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.maxxieText b {
+  margin-bottom: 0;
+}
+
+.maxxieText p {
+  margin-top: 0;
+}
+
+#jalAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.jalText b {
+  margin-bottom: 0;
+}
+
+.jalText p {
+  margin-top: 0;
+}
+
+#anwarAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.anwarText b {
+  margin-bottom: 0;
+}
+
+.anwarText p {
+  margin-top: 0;
+}
+
+
+
+
+.contenedor-imagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fila {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.fila img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
 }
 
